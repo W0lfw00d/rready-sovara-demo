@@ -1,2 +1,2 @@
 # rready-sovara-demo
-Demo repo to test 
+Demo repo to github PR integration 
