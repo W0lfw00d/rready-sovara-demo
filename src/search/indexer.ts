@@ -7,3 +7,7 @@ export async function bulkIndex(documents: any[], batchSize = 500) {
 export async function indexDelta(since: Date) {
   // index only documents modified since last run
 }
+// Index health check and reindex trigger
+export async function checkIndexHealth() {
+  // verify mapping, doc count, trigger reindex if needed
+}
