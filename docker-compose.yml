@@ -1,0 +1,10 @@
+# Docker Compose for local dev environment
+services:
+  postgres:
+    image: postgres:16
+    ports:
+      - "5432:5432"
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
